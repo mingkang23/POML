@@ -6,7 +6,7 @@ Partially-observed Multi-label Classification \\via Autoencoder-based Matrix Com
 
 Tensorflow-gpu == 2.3.0, Numpy, sklearn
 
-######CUB
+## CUB
 
 Please download the following CUB-200-2011 data files (https://drive.google.com/drive/folders/1ywd3EKMyNYBdGu2hgOaI_BG8qtU6yUVR?usp=sharing).
 
@@ -26,7 +26,7 @@ If you want to train the scratch model (Cub_init.py: phase 1 in our paper)
 CUDA_VISIBLE_DEVICES=1 python Cub_init.py --seed ${seed} --ratio 5
 
 
-###### MS-COCO
+## MS-COCO
 
 Please download the following MSCOCO-caption data files (https://drive.google.com/drive/folders/1pGtoWp4Ut3XIqfpsVTAK0bO34l_LVe_v?usp=sharing).
 
@@ -38,7 +38,7 @@ If you want to train the scratch model  (Cub_init.py: phase 1 in our paper)
 
 CUDA_VISIBLE_DEVICES=1 python COCO_init.py
 
-###### Open Images
+##  Open Images
 
 We upload only training code (AE_learning_OpenImages.py) dues to huge amount of data.
 In case of Open Images, we implemented based on the code of "https://github.com/hbdat/cvpr20_IMCL/"
