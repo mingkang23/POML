@@ -18,8 +18,8 @@ Please download the following CUB-200-2011 pretrained AE models (https://drive.g
 
 (for ratio 3,4,5)
 CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 5
-# CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 2 --max_epoch 20 --hyper_semi 0.5 --th 0.95
-# CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 1 --max_epoch 70 --hyper_semi 0.4 --th 0.93
+CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 2 --max_epoch 20 --hyper_semi 0.5 --th 0.95
+CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 1 --max_epoch 70 --hyper_semi 0.4 --th 0.93
 
 If you want to train the scratch model (Cub_init.py: phase 1 in our paper)
 
