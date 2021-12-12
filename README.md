@@ -23,7 +23,7 @@ CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 1 --max_epoch 70 
 
 If you want to train the scratch model (Cub_init.py: phase 1 in our paper)
 
-# CUDA_VISIBLE_DEVICES=1 python Cub_init.py --seed ${seed} --ratio 5
+CUDA_VISIBLE_DEVICES=1 python Cub_init.py --seed ${seed} --ratio 5
 
 
 ###### MS-COCO
