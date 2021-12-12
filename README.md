@@ -14,7 +14,7 @@ Please download the following CUB-200-2011 pretrained CNN models (https://drive.
 
 Please download the following CUB-200-2011 pretrained AE models (https://drive.google.com/drive/folders/13G3Rx9r17wr1th9luuuJVg6U0xNgNBTw?usp=sharing).
 
-### Training: ratio denotes missing ratio (5:0%, 4:20%, 3:40%, 2:60%, 1: 20%) , hyper_semi: lambda_g, th: alpha (Cub_ft.py: phase 2 in our paper)
+Training: ratio denotes missing ratio (5:0%, 4:20%, 3:40%, 2:60%, 1: 20%) , hyper_semi: lambda_g, th: alpha (Cub_ft.py: phase 2 in our paper)
 
 (for ratio 3,4,5)
 CUDA_VISIBLE_DEVICES=1 python Cub_ft.py --seed ${seed} --ratio 5
@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=1 python COCO_ft.py
 
 If you want to train the scratch model  (Cub_init.py: phase 1 in our paper)
 
-# CUDA_VISIBLE_DEVICES=1 python COCO_init.py
+CUDA_VISIBLE_DEVICES=1 python COCO_init.py
 
 ###### Open Images
 
